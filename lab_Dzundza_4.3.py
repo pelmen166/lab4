@@ -23,7 +23,7 @@ while x <= x2:
         yy.append(y)
 
     xx.append(x)
-    x += 1
+    x += dx
 
 st = len(xx)
 table = PrettyTable(xx)
